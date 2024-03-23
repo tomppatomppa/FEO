@@ -23,7 +23,7 @@ const items = [
 
 export const Showcase = () => {
   return (
-    <div className="p-20">
+    <div className="px-4 md:p-20">
       {items.map((item, i) => (
         <Item key={i} {...item} />
       ))}

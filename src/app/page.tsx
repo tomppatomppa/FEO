@@ -12,18 +12,6 @@ export default function Home() {
       <Hero />
       <Showcase />
       <Person />
-      {/* <CldVideoPlayer
-        width="1920"
-        height="1080"
-        src="feo-video-resources/frjvzm5gofltnkcgo1yp"
-        sourceTypes={["hls"]} // <-- Add HLS as a source type or dash for MPEG-DASH
-        transformation={{
-          // <-- Add transformation prop
-          streaming_profile: "hd", // <-- Add streaming profile
-        }}
-        autoPlay
-      /> */}
-     
     </main>
   );
 }

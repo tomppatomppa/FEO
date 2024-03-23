@@ -19,11 +19,11 @@ const persons = [
 
 export const Person = () => {
   return (
-    <div className="py-2">
-      <div className="flex justify-center my-12">
+    <div className="px-2">
+      <div className="flex justify-center my-14 md:my-24">
         <strong className="text-4xl">TEAM</strong>
       </div>
-      <div className="flex flex-col gap-4 lg:flex-row mx-auto max-w-6xl md:gap-8">
+      <div className="flex flex-col gap-16 lg:flex-row mx-auto max-w-6xl md:gap-8">
         {persons.map((person, i) => (
           <PersonCard key={i} {...person} />
         ))}
